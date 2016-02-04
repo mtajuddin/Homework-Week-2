@@ -1,0 +1,24 @@
+int border = 20;
+
+void setup() {
+  size(400, 400);
+  background(0);
+}
+
+void draw() {
+  stroke(255);
+  strokeWeight(2);
+  
+  int i = border;
+  while (i < (width-border)) { 
+  line(i, border, border,i);
+  i += 15;
+  }
+  
+  int l = border;
+  while (l < width - border) {
+    line(380, l, 0 + l, 380);
+    l += 15;
+  }
+}
+
