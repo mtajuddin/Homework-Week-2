@@ -1,0 +1,14 @@
+void setup() {
+  size(400, 400);
+  background(0,0,0);
+}
+
+int i = 0;
+void draw() {
+  fill(255, 255, 255);
+  
+  while ( i < 370) {
+  ellipse(20 + i, 20 + i, 20, 20);
+  i += 15;
+  }
+}
