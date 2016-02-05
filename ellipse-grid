@@ -1,0 +1,17 @@
+void setup() {
+  size(400, 415);
+  background(0, 0, 0);
+}
+
+void draw() {
+  int y = 0;
+  
+    while(y < 370) {
+      int x = 0;
+      while (x < 370) {
+        ellipse(22+y, 22+x, 20, 20);
+        x += 22;
+      }
+      y += 22;
+    }
+}
